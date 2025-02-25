@@ -1,3 +1,56 @@
+body {
+    font-family: 'Hiragino Sans', 'Arial', sans-serif; /* 日式字體優先，Mac內建 */
+    background-color: #f5f5f5; /* 米色，像和紙 */
+    color: #333; /* 深灰，低調舒適 */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6; /* 寬鬆行距，像日式排版 */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #e8d9c8; /* 淡櫻花色 */
+    border-bottom: 2px solid #d3a68b; /* 木框感 */
+}
+
+h1 {
+    font-size: 2em;
+    color: #4a2c2a; /* 深紅，帶傳統味 */
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #6b4e31; /* 咖啡色，溫暖自然 */
+    border-left: 5px solid #d3a68b;
+    padding-left: 10px;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #8a552f; /* 淺棕，柔和 */
+}
+
+p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+main {
+    max-width: 800px; /* 內容寬度限制，像日式書本 */
+    margin: 20px auto; /* 置中 */
+    background-color: #fff; /* 白底，像紙張 */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 輕微陰影，乾淨感 */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #666;
+}
 /* 前面的 CSS 不變，這裡只加 LOGO 部分 */
 .logo {
     display: flex;
